@@ -1,0 +1,485 @@
+/* categories */
+.categories {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.menucontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-size: 18px;
+  margin-left: 0px;
+  color: rgb(230, 233, 244);
+  background-color: black;
+  padding-bottom: 50px;
+  padding-top: 160px;
+  text-transform: uppercase;
+}
+
+.menucolumn1 {
+  border: 2px solid rgb(235, 75, 6);
+  border-radius: 12px;
+  margin: 60px;
+  padding: 10px 2px 10px 10px;
+  background-color: black;
+  color: white;
+
+}
+
+.menucontainer img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+/* breakfast category*/
+.breakfastContainer {
+  background-color: black;
+}
+
+/* breakfast subcategories */
+.breakfastcontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 0px;
+  color: rgb(230, 233, 244);
+  background-color: black;
+  margin-bottom: 12px;
+  padding-bottom: 50px;
+  padding-top: 160px;
+  text-transform: capitalize;
+}
+
+.breakfastcontainer img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.breakfastcolumn1 {
+  border-radius: 12px;
+  margin: 20px;
+  padding-bottom: 50px;
+  background-color: black;
+  color: white;
+}
+
+/* breakfast items */
+.teacontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding-top: 160px;
+  text-transform: capitalize;
+}
+
+.teacontainer img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+
+}
+
+.teacontainer p {
+  color: white;
+}
+
+.teacontainer button {
+  border: 1px solid rgb(235, 75, 6);
+  border-radius: 8px;
+  background-color: black;
+  font-size: 30px;
+  color: rgb(235, 75, 6);
+  margin-bottom: 50px;
+  padding: 0 4px 0 4px;
+
+}
+
+.snackscontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding-top: 160px;
+  text-transform: capitalize;
+
+}
+
+.snackscontainer img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+
+}
+
+.snackscontainer p {
+  color: white;
+}
+
+.snackscontainer button {
+  border: 1px solid rgb(235, 75, 6);
+  border-radius: 8px;
+  background-color: black;
+  font-size: 30px;
+  color: rgb(235, 75, 6);
+  margin-bottom: 50px;
+  padding: 0 4px 0 4px;
+}
+
+.katogocontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding-top: 160px;
+  text-transform: capitalize;
+}
+
+.katogocontainer img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.katogocontainer p {
+  color: white;
+}
+
+.katogocontainer button {
+  border: 1px solid rgb(235, 75, 6);
+  border-radius: 8px;
+  background-color: black;
+  font-size: 30px;
+  color: rgb(235, 75, 6);
+  margin-bottom: 50px;
+  padding: 0 4px 0 4px;
+}
+
+.drinkscontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding-top: 160px;
+  text-transform: capitalize;
+}
+
+.drinkscontainer img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+
+}
+
+.drinkscontainer p {
+  color: white;
+}
+
+.drinkscontainer button {
+  border: 1px solid rgb(235, 75, 6);
+  border-radius: 8px;
+  background-color: black;
+  font-size: 30px;
+  color: rgb(235, 75, 6);
+  margin-bottom: 50px;
+  padding: 0 4px 0 4px;
+
+}
+
+
+/* lunch category */
+.lunchContainer {
+  background-color: black;
+}
+
+/* lunch subcategories */
+.lunchCategories {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 0px;
+  color: rgb(230, 233, 244);
+  background-color: black;
+  margin-bottom: 2px;
+  padding-bottom: 120px;
+  padding-top: 160px;
+  text-transform: capitalize;
+}
+
+.lunchCategories img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+
+/* lunch items */
+.soupscontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding-top: 160px;
+  text-transform: capitalize;
+}
+
+.soupscontainer img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+
+}
+
+.soupscontainer p {
+  color: white;
+}
+
+.soupscontainer button {
+  border: 1px solid rgb(235, 75, 6);
+  border-radius: 8px;
+  background-color: black;
+  font-size: 30px;
+  color: rgb(235, 75, 6);
+  margin-bottom: 50px;
+  padding: 0 4px 0 4px;
+
+}
+
+.grainscontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding-top: 160px;
+  text-transform: capitalize;
+}
+
+.grainscontainer p {
+  color: white;
+}
+
+.grainscontainer img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.grainscontainer button {
+  border: 1px solid rgb(235, 75, 6);
+  border-radius: 8px;
+  background-color: black;
+  font-size: 30px;
+  color: rgb(235, 75, 6);
+  margin-bottom: 50px;
+  padding: 0 4px 0 4px;
+
+}
+
+
+.fruitscontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding-top: 160px;
+  text-transform: capitalize;
+}
+
+.fruitscontainer img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.fruitscontainer p {
+  color: white;
+}
+
+.fruitscontainer button {
+  border: 1px solid rgb(235, 75, 6);
+  border-radius: 8px;
+  background-color: black;
+  font-size: 30px;
+  color: rgb(235, 75, 6);
+  margin-bottom: 50px;
+  padding: 0 4px 0 4px;
+
+}
+
+
+/* dinner */
+.dinnerContainer {
+  background-color: black;
+}
+
+.dinnerCategories {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 0px;
+  color: rgb(230, 233, 244);
+  background-color: black;
+  margin-bottom: 2px;
+  padding-bottom: 120px;
+  padding-top: 160px;
+  text-transform: capitalize;
+}
+
+.dinnerCategories img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+/* subcategories */
+.winescontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-size: 25px;
+  margin-left: 0px;
+  color: rgb(230, 233, 244);
+  margin-bottom: 10px;
+  padding-top: 160px;
+  background-color: black;
+  text-transform: capitalize;
+}
+
+.winescontainer img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.winescontainer p {
+  color: white
+}
+
+.winescontainer button {
+  border: 1px solid rgb(235, 75, 6);
+  border-radius: 8px;
+  background-color: black;
+  font-size: 30px;
+  color: rgb(235, 75, 6);
+  margin-bottom: 50px;
+  padding: 0 4px 0 4px;
+
+}
+
+.dessertscontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+  background-color: black;
+  padding-top: 160px;
+  text-transform: capitalize;
+}
+
+.dessertscontainer img {
+  width: 350px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.dessertscontainer p {
+  color: white;
+}
+
+.dessertscontainer button {
+  border: 1px solid rgb(235, 75, 6);
+  border-radius: 8px;
+  background-color: black;
+  font-size: 30px;
+  color: rgb(235, 75, 6);
+  margin-bottom: 50px;
+  padding: 0 4px 0 4px;
+}
+
+.appetizercontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding-top: 160px;
+  text-transform: capitalize;
+}
+
+.appetizercontainer img {
+  width: 350px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.appetizercontainer p {
+  color: white;
+}
+
+.appetizercontainer button {
+  border: 1px solid rgb(235, 75, 6);
+  border-radius: 8px;
+  background-color: black;
+  font-size: 30px;
+  color: rgb(235, 75, 6);
+  margin-bottom: 50px;
+  padding: 0 4px 0 4px;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+  color: white;
+}
+
+button {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}
+
+/* popular foods section */
+.popular {
+  background-color: white;
+  padding-top: 15px;
+}
+
+.popular h2 {
+  color: black;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.popularfood {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 25px;
+  margin-left: 0px;
+  color: black;
+  background-color: white;
+  margin-bottom: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.popularfood img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  border: 1px solid orange;
+}

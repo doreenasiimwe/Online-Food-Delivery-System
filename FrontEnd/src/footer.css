@@ -1,0 +1,27 @@
+.footer_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.footer {
+    background-color: rgb(17, 19, 23);
+    color: white;
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 250px;
+    padding-top: 40px;
+}
+
+.footer p {
+    color: rgb(243, 245, 249);
+    font-weight: 30
+}
+
+
+p.copy {
+    text-align: left;
+    margin-top: 20px;
+    color: rgb(235, 75, 6);
+
+
+}

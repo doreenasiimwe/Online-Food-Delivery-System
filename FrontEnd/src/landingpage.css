@@ -1,0 +1,119 @@
+h1 {
+    text-align: center;
+}
+
+.landing {
+    align-content: center;
+    overflow: hidden;
+    height: 680px;
+    width: 100vw;
+}
+
+.landing img {
+    object-fit: cover;
+    opacity: 0.8;
+    width: 1800px;
+    transform: translate3d(-100px, 0px, -1000px);
+}
+
+#name {
+    color: darkorange;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.sections {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background-color: rgb(233, 237, 240);
+
+}
+
+#img1 {
+    width: 21rem;
+    height: 12rem;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.categories2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+img {
+    width: 100%;
+}
+
+.welcome {
+    position: absolute;
+    top: 42%;
+    color: white;
+    left: 13.5%;
+    transform: translate(-50% -50%);
+    font-size: 75px;
+}
+
+
+.topic {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    color: black;
+    transform: translate(-50% -50%);
+
+}
+
+.topic h3 {
+    font-size: 38px;
+}
+
+.topic h4 {
+    font-size: 20px;
+}
+
+/* .p1 {
+    color: rgb(1, 13, 44);
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50% -50%);
+    font-size: 25px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+} */
+
+.orderbtn {
+    color: whitesmoke;
+    background-color: black;
+    position: absolute;
+    top: 67%;
+    left: 46%;
+    transform: translate(-50% -50%);
+    font-size: 22px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    padding: 0px 8px;
+}
+
+.orderbtn:hover {
+    background-color: orangered;
+}
+
+.side a {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(235, 235, 198);
+    margin-left: 10px;
+}

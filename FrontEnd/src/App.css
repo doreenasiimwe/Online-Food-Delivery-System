@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: rgb(235, 75, 6);
+}
+
+.buttonlogin {
+  font-size: 16px;
+  background-color: rgb(235, 75, 6);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  float: left;
+}
+
+button:hover {
+  background-color: darkorange;
+}
+
+button:active {
+  background-color: darkorange;
+}
+
+button:focus {
+  outline: 0;
+}
+
+form.form-group.error {
+  color: red;
+  font-size: 40px;
+  text-align: left;
+}
+
+/* loginform */
+.container {
+  display: flex;
+  height: 130vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0px 20px;
+  width: 30vw;
+  height: 90vh;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgb(235, 75, 6);
+}
+
+form {
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  background-color: white;
+  align-items: left;
+  border: 1px solid rgb(234, 100, 28);
+  border-radius: 5px;
+}
+
+.imgp .img {
+  height: 100px;
+  width: 140px;
+}
+
+.imgp p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.imgp {
+  height: 150px;
+  align-content: center;
+  align-items: center;
+  line-height: 0;
+  column-gap: 600px;
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+
+}
+
+.form_container h2 {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h6 {
+  font-weight: 100;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: white;
+  text-align: center;
+}
+
+.form_container form .form-group {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form_container form .form-group input {
+  display: block;
+  padding: 9px;
+  width: 100%;
+  border: 1px solid rgb(235, 75, 6);
+  border-radius: 5px;
+  margin-top: 3px;
+  font-size: 16px;
+
+}
+
+form .error {
+  color: red;
+  text-align: left;
+}
+
+p {
+  color: black;
+}
+
+#login {
+  height: 65vh;
+}
+
+#register {
+  margin-top: 110px;
+}
+
+p a {
+  color: rgb(235, 75, 6);
+  text-decoration: none;
+}
+
+p a:hover {
+  color: darkorange;
+}
+
+.form_container form .form-group label {
+  color: black;
+  float: left;
+}
+
+@media screen and (max-width:480px) {
+  .form_container {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width:720px) {
+  .form_container {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .form_container {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  */ .form_container {
+    width: 70 vw;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .form_container {
+    width: 75 vw;
+  }
+}
+
+@media screen and (max-width:950px) {
+  .form_container {
+    width: 60vw;
+  }
+}
+
+input :invalid {
+  color: red;
+}
+
+.back {
+  color: rgb(235, 75, 6);
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.back:hover {
+  color: darkorange;
+}

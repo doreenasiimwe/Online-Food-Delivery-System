@@ -1,0 +1,128 @@
+.page img{
+    image-resolution: 1000px;
+    width: 1200px;
+    height: 500px;
+}
+
+.page{
+    background-color: white;
+}
+
+.page span{
+    color: purple;
+    font-size: 18px;
+}
+
+.page p{
+    color: black;
+    font-size: 22px;
+}
+
+.page span:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.my_logo {
+    width: 230px;
+    height: 130px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.overall_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(235, 75, 6);
+    border-top: none;
+    border-right: none;
+    position: fixed;
+    z-index: 1;
+}
+
+#btns {
+    margin-top: 40px;
+    font-size: 19px;
+    background-color: black;
+    border-radius: 8px;
+    margin-right: 10px;
+    width: 95px;
+    height: 40px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+#btn-r {
+    margin-top: 40px;
+    font-size: 19px;
+    background-color: black;
+    border-radius: 8px;
+    width: 95px;
+    height: 40px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+.buttonlink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 560px;
+}
+
+a {
+    padding: 5px;
+    color: rgb(243, 245, 249);
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+a:active {
+    color: rgb(235, 75, 6);
+}
+
+.nav_link1 {
+    margin-top: 48px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav_link2 {
+    margin-top: 48px;
+    font-size: 20px;
+    color: white;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.nav_link1 .home:hover {
+    color: white;
+}
+
+.nav_link2 .menu:hover {
+    color: white;
+}
+
+.rrr {
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    justify-content: space-around;
+
+}
+
+.rrr h5 {
+    color: rgb(243, 245, 249);
+    margin-top: 27px;
+}
+
+#chart {
+    margin-top: 40px;
+    width: 150px;
+    height: 41px;
+}
